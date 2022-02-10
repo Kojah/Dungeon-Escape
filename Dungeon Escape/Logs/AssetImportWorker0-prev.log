@@ -15,11 +15,11 @@ D:/Projects/UDEMY/UNITY MOBILE/Dungeon-Escape/Dungeon Escape
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58309
+51767
 Successfully changed project path to: D:/Projects/UDEMY/UNITY MOBILE/Dungeon-Escape/Dungeon Escape
 D:/Projects/UDEMY/UNITY MOBILE/Dungeon-Escape/Dungeon Escape
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 44.84 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 41.01 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.27f1 (e759542391ea)
 [Subsystems] Discovering subsystems at path D:/!GameDev/UnityHub/2020.3.27f1/Editor/Data/Resources/UnitySubsystems
@@ -35,73 +35,73 @@ Initialize mono
 Mono path[0] = 'D:/!GameDev/UnityHub/2020.3.27f1/Editor/Data/Managed'
 Mono path[1] = 'D:/!GameDev/UnityHub/2020.3.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/!GameDev/UnityHub/2020.3.27f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56964
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56148
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/!GameDev/UnityHub/2020.3.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002312 seconds.
+Registered in 0.001568 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 129.83 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 39.52 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.822 seconds
+- Completed reload, in  0.707 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1823ms)
-		BeginReloadAssembly (84ms)
+	ReloadAssembly (707ms)
+		BeginReloadAssembly (70ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1647ms)
-			LoadAssemblies (82ms)
+		EndReloadAssembly (551ms)
+			LoadAssemblies (69ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (191ms)
+			SetupTypeCache (184ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (279ms)
-			SetupLoadedEditorAssemblies (354ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (202ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (130ms)
-				BeforeProcessingInitializeOnLoad (26ms)
-				ProcessInitializeOnLoadAttributes (150ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (40ms)
+				BeforeProcessingInitializeOnLoad (19ms)
+				ProcessInitializeOnLoadAttributes (103ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007116 seconds.
+Registered in 0.005035 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.702 seconds
+- Completed reload, in  1.185 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2704ms)
-		BeginReloadAssembly (188ms)
+	ReloadAssembly (1186ms)
+		BeginReloadAssembly (182ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (2440ms)
-			LoadAssemblies (121ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (937ms)
+			LoadAssemblies (115ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1369ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (105ms)
-			SetupLoadedEditorAssemblies (525ms)
+			SetupTypeCache (322ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (364ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (116ms)
-				ProcessInitializeOnLoadAttributes (366ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (244ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -109,15 +109,15 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1577 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 70.9 MB.
 System memory in use after: 70.9 MB.
 
 Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2011.
-Total: 7.018800 ms (FindLiveObjects: 0.200600 ms CreateObjectMapping: 0.070000 ms MarkObjects: 6.618200 ms  DeleteObjects: 0.127300 ms)
+Total: 4.024400 ms (FindLiveObjects: 0.148800 ms CreateObjectMapping: 0.055900 ms MarkObjects: 3.760800 ms  DeleteObjects: 0.057600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,113 +131,17 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Sprites/Environment/Level/Ground.png
-  artifactKey: Guid(33f0f34dcea372245ab519e15fb6be90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Environment/Level/Ground.png using Guid(33f0f34dcea372245ab519e15fb6be90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebe77a7741a7a3a4058f0a2f316c441c') in 0.367034 seconds 
-  Import took 0.370944 seconds .
+  path: Assets/Sprites/Environment/Vegetation/Vegetation.png
+  artifactKey: Guid(aa799cea6ac955749bb0902b76321781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Vegetation/Vegetation.png using Guid(aa799cea6ac955749bb0902b76321781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '495b5c4e82278589f2af0bef44c2c75c') in 0.228792 seconds 
+  Import took 0.232206 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.611441 seconds.
-  path: Assets/Sprites/Environment/Level/Ground.png
-  artifactKey: Guid(33f0f34dcea372245ab519e15fb6be90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Environment/Level/Ground.png using Guid(33f0f34dcea372245ab519e15fb6be90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e629fc517b0a12e13035c3eee6569e32') in 0.022448 seconds 
-  Import took 0.026246 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 28.357959 seconds.
-  path: Assets/Sprites/Environment/Level/Ground.png
-  artifactKey: Guid(33f0f34dcea372245ab519e15fb6be90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Environment/Level/Ground.png using Guid(33f0f34dcea372245ab519e15fb6be90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1595b2bd896b76d4b2eac963eba8328c') in 0.221528 seconds 
-  Import took 0.236363 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.853909 seconds.
-  path: Assets/Sprites/Environment/Level/Level_Sprites.png
-  artifactKey: Guid(166db34841ed4454985726b5f89324cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Environment/Level/Level_Sprites.png using Guid(166db34841ed4454985726b5f89324cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82c817d0f5d5ff49f1dcef28829e03bb') in 0.137820 seconds 
-  Import took 0.142032 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.025714 seconds.
-  path: Assets/Sprites/Environment/Level/Ground.png
-  artifactKey: Guid(33f0f34dcea372245ab519e15fb6be90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Environment/Level/Ground.png using Guid(33f0f34dcea372245ab519e15fb6be90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c520b0ee668737da617cf23c42733f1') in 0.211532 seconds 
-  Import took 0.214754 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4439.558895 seconds.
-  path: Assets/Sprites/Environment/Black_Cave/Black_Cavern_2.png
-  artifactKey: Guid(3cef57d038074e84ba9ddec58094fe54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Environment/Black_Cave/Black_Cavern_2.png using Guid(3cef57d038074e84ba9ddec58094fe54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bae8f57d7f4be829b735bd2695e9456') in 0.028100 seconds 
-  Import took 0.035637 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.313817 seconds.
-  path: Assets/Sprites/Environment/Black_Cave/Black_Cavern_2.png
-  artifactKey: Guid(3cef57d038074e84ba9ddec58094fe54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Environment/Black_Cave/Black_Cavern_2.png using Guid(3cef57d038074e84ba9ddec58094fe54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2cc521dccccdad6d76a3f16fd735e04') in 0.014037 seconds 
-  Import took 0.017003 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.052773 seconds.
-  path: Assets/Sprites/Environment/Black_Cave/Black_Cavern_2.png
-  artifactKey: Guid(3cef57d038074e84ba9ddec58094fe54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Environment/Black_Cave/Black_Cavern_2.png using Guid(3cef57d038074e84ba9ddec58094fe54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14559aa1b345edd7a7561c802be8392c') in 0.208046 seconds 
-  Import took 0.210851 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 77.048131 seconds.
-  path: Assets/Sprites/Environment/Far_Cavern/Far_Cavern.jpg
-  artifactKey: Guid(01de934f9f74a7646a99097b571a57ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Environment/Far_Cavern/Far_Cavern.jpg using Guid(01de934f9f74a7646a99097b571a57ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd74d4dbcc32c8a5f3e1555bd5a82a978') in 0.082288 seconds 
-  Import took 0.087316 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.142675 seconds.
-  path: Assets/Sprites/Environment/Far_Cavern/Far_Cavern.jpg
-  artifactKey: Guid(01de934f9f74a7646a99097b571a57ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Environment/Far_Cavern/Far_Cavern.jpg using Guid(01de934f9f74a7646a99097b571a57ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2f238050755c77ad37598a1dcc48103') in 0.016761 seconds 
-  Import took 0.020038 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.036905 seconds.
-  path: Assets/Sprites/Environment/Far_Cavern/Far_Cavern.jpg
-  artifactKey: Guid(01de934f9f74a7646a99097b571a57ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Environment/Far_Cavern/Far_Cavern.jpg using Guid(01de934f9f74a7646a99097b571a57ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c6c88b6c1cedf93331bf16c08a29e9c') in 0.077894 seconds 
-  Import took 0.081734 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.212250 seconds.
-  path: Assets/Sprites/Environment/Far_Cavern/Far_Cavern.jpg
-  artifactKey: Guid(01de934f9f74a7646a99097b571a57ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Environment/Far_Cavern/Far_Cavern.jpg using Guid(01de934f9f74a7646a99097b571a57ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '910968f9650cb7e4f087515eebf7a2d8') in 0.072744 seconds 
-  Import took 0.075353 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 45.679574 seconds.
-  path: Assets/Sprites/Environment/Grey_Cavern/Grey_Cavern.png
-  artifactKey: Guid(747f25e5b4f0ed34781b3364c07ef750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Environment/Grey_Cavern/Grey_Cavern.png using Guid(747f25e5b4f0ed34781b3364c07ef750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '012c1ec0d6486bf270dee354fbb7b8ec') in 0.199226 seconds 
-  Import took 0.202827 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.426167 seconds.
-  path: Assets/Sprites/Environment/Black_Cave/Black_Cavern.png
-  artifactKey: Guid(a3f091c390650ff46bef91c5d1953106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Environment/Black_Cave/Black_Cavern.png using Guid(a3f091c390650ff46bef91c5d1953106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4873897df603a8b953fb4d56f0e55d3') in 0.022111 seconds 
-  Import took 0.026152 seconds .
+  Time since last request: 41.562735 seconds.
+  path: Assets/Sprites/Environment/Vegetation/Vegetation.png
+  artifactKey: Guid(aa799cea6ac955749bb0902b76321781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Vegetation/Vegetation.png using Guid(aa799cea6ac955749bb0902b76321781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '706073718fcf03241f8bb958c083b74a') in 0.095785 seconds 
+  Import took 0.099267 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
