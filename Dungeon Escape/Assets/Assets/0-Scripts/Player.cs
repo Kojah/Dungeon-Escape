@@ -32,16 +32,14 @@ public class Player : MonoBehaviour
         //To modify it, a bit has to be present on index 8
         //This is why there is a bit shift to place a 1 at index 8
         RaycastHit2D groundHit = Physics2D.Raycast(transform.position, Vector2.down, 0.7f, 1 << 8);
-        if(resetJump) { return false; }
 
         if(groundHit.collider != null)
         {
-            return true;
+            if(!resetJump)
+                return true;
         }
-        else
-        {
-            return false;
-        }
+
+        return false;
     }    
 
     private IEnumerator ResetJumpRoutine()
