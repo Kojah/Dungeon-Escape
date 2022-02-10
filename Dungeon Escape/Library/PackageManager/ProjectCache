@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637800177501317833
-    m_Hash: 2078887560
+      ticks: 637800519946281308
+    m_Hash: 3767116875
   m_LockFileStatus:
     m_FilePath: D:/Projects/UDEMY/UNITY MOBILE/Dungeon-Escape/Dungeon Escape/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637800177822388372
-    m_Hash: 2207342199
+      ticks: 637800519946539232
+    m_Hash: 1300283237
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -101,6 +101,100 @@ m_PackageAssets:
       keywords:
       - 2d
       - Tilemap
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
+    - packageId: com.unity.2d.tilemap.extras@file:D:\Downloads\2d-extras-2020.3
+      testable: 0
+      isDirectDependency: 1
+      version: 1.8.1-preview
+      source: 4
+      resolvedPath: D:\Downloads\2d-extras-2020.3
+      assetPath: Packages/com.unity.2d.tilemap.extras
+      name: com.unity.2d.tilemap.extras
+      displayName: 2D Tilemap Extras
+      author:
+        name: 
+        email: 
+        url: 
+      category: 2D
+      type: 
+      description: 2D Tilemap Extras is a package that contains extra scripts for
+        use with 2D Tilemap features in Unity. These include custom Tiles and Brushes
+        for the Tilemap feature.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.5.0-preview
+        - 1.6.0-preview.1
+        - 1.6.1-preview
+        - 1.6.2-preview
+        - 1.6.3-preview
+        - 1.6.4-preview
+        - 1.7.0-preview
+        - 1.8.0-preview
+        - 1.8.1-preview
+        - 2.0.0-pre.1
+        - 2.0.0-pre.2
+        - 2.0.0
+        - 2.2.0
+        - 2.2.1
+        - 3.0.0
+        compatible:
+        - 1.5.0-preview
+        - 1.6.0-preview.1
+        - 1.6.1-preview
+        - 1.6.2-preview
+        - 1.6.3-preview
+        - 1.6.4-preview
+        - 1.7.0-preview
+        - 1.8.0-preview
+        - 1.8.1-preview
+        verified: 
+      dependencies:
+      - name: com.unity.modules.tilemap
+        version: 1.0.0
+      - name: com.unity.2d.tilemap
+        version: 1.0.0
+      - name: com.unity.ugui
+        version: 1.0.0
+      - name: com.unity.modules.jsonserialize
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.modules.tilemap
+        version: 1.0.0
+      - name: com.unity.modules.physics2d
+        version: 1.0.0
+      - name: com.unity.2d.tilemap
+        version: 1.0.0
+      - name: com.unity.ugui
+        version: 1.0.0
+      - name: com.unity.modules.ui
+        version: 1.0.0
+      - name: com.unity.modules.imgui
+        version: 1.0.0
+      - name: com.unity.modules.jsonserialize
+        version: 1.0.0
+      keywords:
+      - 2d
       registry:
         id: 
         name: 
@@ -553,6 +647,7 @@ m_PackageAssets:
         - 1.2.2
         - 1.2.3
         - 1.2.4
+        - 1.2.5
         compatible:
         - 1.0.2
         - 1.0.3
@@ -566,7 +661,8 @@ m_PackageAssets:
         - 1.2.2
         - 1.2.3
         - 1.2.4
-        verified: 1.2.4
+        - 1.2.5
+        verified: 1.2.5
       dependencies: []
       resolvedDependencies: []
       keywords: []
@@ -2961,6 +3057,20 @@ m_PackageAssets:
         revision: 4cd880d4fd5c60597629249bf4f324e4c8d7aa2e
         path: 
   m_LocalPackages:
-    m_LocalFileStatus: []
+    m_LocalFileStatus:
+    - m_FilePath: D:\Downloads\2d-extras-2020.3/package.json
+      m_PathExists: 1
+      m_ContentTrackingEnabled: 1
+      m_ModificationDate:
+        serializedVersion: 2
+        ticks: 637800519094503642
+      m_Hash: 188767558
+    - m_FilePath: D:\Downloads\2d-extras-2020.3
+      m_PathExists: 1
+      m_ContentTrackingEnabled: 1
+      m_ModificationDate:
+        serializedVersion: 2
+        ticks: 0
+      m_Hash: 0
 m_ProjectPath: D:/Projects/UDEMY/UNITY MOBILE/Dungeon-Escape/Dungeon Escape/Packages
 m_EditorVersion: 2020.3.27f1 (e759542391ea)
