@@ -15,4 +15,9 @@ public class PlayerAnimation : MonoBehaviour
     {
         animator.SetBool("Jumping", jumping);
     }
+
+    public void AttackTransition()
+    {
+        animator.SetTrigger("Attack");
+    }
 }
