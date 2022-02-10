@@ -10,4 +10,9 @@ public class PlayerAnimation : MonoBehaviour
     {
         animator.SetFloat("Move", Mathf.Abs(moveValue));
     }
+
+    public void JumpTransition(bool jumping)
+    {
+        animator.SetBool("Jumping", jumping);
+    }
 }

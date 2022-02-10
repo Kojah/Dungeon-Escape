@@ -11,6 +11,7 @@ public class Player : MonoBehaviour
     [SerializeField] private float speed = 5.0f;
 
     private bool resetJump = false;
+    private bool isGrounded = false;
 
     void Update()
     {
@@ -20,6 +21,7 @@ public class Player : MonoBehaviour
     private void Movement()
     {
         float move = Input.GetAxisRaw("Horizontal");
+        isGrounded = IsGrounded();
 
         if (move < 0)
         {
@@ -29,10 +31,11 @@ public class Player : MonoBehaviour
             Flip(false);
         }
 
-        if (Input.GetKeyDown(KeyCode.Space) && IsGrounded())
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
             rigidBody.velocity = new Vector2(rigidBody.velocity.x, jumpForce);
             StartCoroutine(ResetJumpRoutine());
+            playerAnimation.JumpTransition(true);
         }
 
         rigidBody.velocity = new Vector2(move * speed, rigidBody.velocity.y);
@@ -62,10 +65,12 @@ public class Player : MonoBehaviour
 
         if(groundHit.collider != null)
         {
-            if(!resetJump)
+            if (!resetJump)
+            {
+                playerAnimation.JumpTransition(false);
                 return true;
+            }
         }
-
         return false;
     }    
 
