@@ -5,7 +5,8 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     [SerializeField] Rigidbody2D rigidBody = default;
-    [SerializeField] private float jumpForce = 5;
+    [SerializeField] private float jumpForce = 5.0f;
+    [SerializeField] private float speed = 5.0f;
 
     private bool resetJump = false;
 
@@ -17,7 +18,7 @@ public class Player : MonoBehaviour
     private void Movement()
     {
         float move = Input.GetAxisRaw("Horizontal");
-        rigidBody.velocity = new Vector2(move, rigidBody.velocity.y);
+        rigidBody.velocity = new Vector2(move * speed, rigidBody.velocity.y);
 
         if(Input.GetKeyDown(KeyCode.Space) && IsGrounded())
         {
