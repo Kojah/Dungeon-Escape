@@ -8,6 +8,7 @@ public class PlayerAnimation : MonoBehaviour
 
     public void MoveTransition(float moveValue)
     {
+        Debug.Log(moveValue);
         animator.SetFloat("Move", Mathf.Abs(moveValue));
     }
 }

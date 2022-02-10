@@ -19,15 +19,15 @@ public class Player : MonoBehaviour
     private void Movement()
     {
         float move = Input.GetAxisRaw("Horizontal");
-        rigidBody.velocity = new Vector2(move * speed, rigidBody.velocity.y);
 
-        playerAnimation.MoveTransition(move);
-
-        if(Input.GetKeyDown(KeyCode.Space) && IsGrounded())
+        if (Input.GetKeyDown(KeyCode.Space) && IsGrounded())
         {
             rigidBody.velocity = new Vector2(rigidBody.velocity.x, jumpForce);
             StartCoroutine(ResetJumpRoutine());
         }
+
+        rigidBody.velocity = new Vector2(move * speed, rigidBody.velocity.y);
+        playerAnimation.MoveTransition(move);
     }
 
     private bool IsGrounded()
