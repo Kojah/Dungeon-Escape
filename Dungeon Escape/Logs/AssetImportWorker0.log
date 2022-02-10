@@ -360,3 +360,108 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 904.303023 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(9931fac085e98c04eb0ee26744eff749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(9931fac085e98c04eb0ee26744eff749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb58b9dc915c5c5375bbdd4b8d63f357') in 0.015131 seconds 
+  Import took 0.019084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.417394 seconds.
+  path: Assets/Sprites
+  artifactKey: Guid(9abc5eb45c5ad1a40b8c9cef76a0c29d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites using Guid(9abc5eb45c5ad1a40b8c9cef76a0c29d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeb696fb4b5dfc8c37ddc114255a8274') in 0.009922 seconds 
+  Import took 0.013708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.499517 seconds.
+  path: Assets/Sprites/Characters
+  artifactKey: Guid(da81717ca09e0584f8039d3cfe4dd7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Characters using Guid(da81717ca09e0584f8039d3cfe4dd7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba585865ab40ac43edaeb4e0d31f58a4') in 0.010006 seconds 
+  Import took 0.013610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.600527 seconds.
+  path: Assets/Sprites/New Prefab Brush.asset
+  artifactKey: Guid(5b87b89be72bd8f4dbc2d2a5eb2fa19d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/New Prefab Brush.asset using Guid(5b87b89be72bd8f4dbc2d2a5eb2fa19d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '675341120bf02f572eed33fac32c7a3b') in 0.026870 seconds 
+  Import took 0.029681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.922602 seconds.
+  path: Assets/Sprites/Diamond Brush.asset
+  artifactKey: Guid(5b87b89be72bd8f4dbc2d2a5eb2fa19d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Diamond Brush.asset using Guid(5b87b89be72bd8f4dbc2d2a5eb2fa19d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96bbcec66604ef04a3902b0356095442') in 0.034051 seconds 
+  Import took 0.038821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.753325 seconds.
+  path: Assets/Sprites/Tilemap/Brushes
+  artifactKey: Guid(b5367b3af55230041a82fdd6d593d253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemap/Brushes using Guid(b5367b3af55230041a82fdd6d593d253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '440e2b6503e75116e1b299a57b01b7b1') in 0.008743 seconds 
+  Import took 0.012439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.271361 seconds.
+  path: Assets/Sprites/Effects/Diamond.png
+  artifactKey: Guid(77079aa591da7db478af096131b593e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Effects/Diamond.png using Guid(77079aa591da7db478af096131b593e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5aca08fab55182354a2602c4632068c') in 0.085008 seconds 
+  Import took 0.088292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.651178 seconds.
+  path: Assets/Sprites/Effects/Diamond.png
+  artifactKey: Guid(77079aa591da7db478af096131b593e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Effects/Diamond.png using Guid(77079aa591da7db478af096131b593e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f3b4c416c9def8e07d539b1332e9dd0') in 0.017943 seconds 
+  Import took 0.021510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.112492 seconds.
+  path: Assets/Sprites/Effects/Diamond.png
+  artifactKey: Guid(77079aa591da7db478af096131b593e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Effects/Diamond.png using Guid(77079aa591da7db478af096131b593e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d696da3308248ed626bdb54cf618d4b') in 0.153000 seconds 
+  Import took 0.156842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 119.330591 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.011872 seconds 
+  Import took 0.015028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.586062 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(b1c6077349a91a64186e25558368ed17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(b1c6077349a91a64186e25558368ed17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ed999e898da245bcda07c973ca2c4e8') in 0.008523 seconds 
+  Import took 0.010992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.654102 seconds.
+  path: Assets/Prefabs/Diamond.prefab
+  artifactKey: Guid(26ba6ecff07e83f4f93d67fb4845e91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Diamond.prefab using Guid(26ba6ecff07e83f4f93d67fb4845e91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8a839f391338f80414236136bb4b876') in 0.132896 seconds 
+  Import took 0.137485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.932665 seconds.
+  path: Assets/Sprites/Tilemap/Brushes/Diamond Brush.asset
+  artifactKey: Guid(5b87b89be72bd8f4dbc2d2a5eb2fa19d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemap/Brushes/Diamond Brush.asset using Guid(5b87b89be72bd8f4dbc2d2a5eb2fa19d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a8ddf4e45906892422a6f7c176ad216') in 0.008040 seconds 
+  Import took 0.011072 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
