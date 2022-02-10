@@ -4,15 +4,10 @@ using UnityEngine;
 
 public class PlayerAnimation : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] private Animator animator = default;
 
-    // Update is called once per frame
-    void Update()
+    public void MoveTransition(float moveValue)
     {
-        
+        animator.SetFloat("Move", Mathf.Abs(moveValue));
     }
 }
