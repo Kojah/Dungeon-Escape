@@ -4,20 +4,22 @@ using UnityEngine;
 
 public class PlayerAnimation : MonoBehaviour
 {
-    [SerializeField] private Animator animator = default;
+    [SerializeField] private Animator playerAnimator = default;
+    [SerializeField] private Animator swordAnimator = default;
 
     public void MoveTransition(float moveValue)
     {
-        animator.SetFloat("Move", Mathf.Abs(moveValue));
+        playerAnimator.SetFloat("Move", Mathf.Abs(moveValue));
     }
 
     public void JumpTransition(bool jumping)
     {
-        animator.SetBool("Jumping", jumping);
+        playerAnimator.SetBool("Jumping", jumping);
     }
 
     public void AttackTransition()
     {
-        animator.SetTrigger("Attack");
+        playerAnimator.SetTrigger("Attack");
+        swordAnimator.SetTrigger("SwordAnimation");
     }
 }

@@ -6,6 +6,7 @@ public class Player : MonoBehaviour
 {
     [SerializeField] private PlayerAnimation playerAnimation = default;
     [SerializeField] private SpriteRenderer playerSprite = default;
+    [SerializeField] private SpriteRenderer swordArcSprite = default;
     [SerializeField] private Rigidbody2D rigidBody = default;
     [SerializeField] private float jumpForce = 5.0f;
     [SerializeField] private float speed = 5.0f;
@@ -30,10 +31,10 @@ public class Player : MonoBehaviour
 
         if (move < 0)
         {
-            Flip(true);
+            Flip(false);
         } else if (move > 0)
         {
-            Flip(false);
+            Flip(true);
         }
 
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
@@ -49,13 +50,24 @@ public class Player : MonoBehaviour
 
     private void Flip(bool faceRight)
     {
-        if(faceRight)
+
+        if (faceRight)
         {
-            playerSprite.flipX = true;
+            playerSprite.flipX = false;
+            //swordArcSprite.flipX = false;
+            swordArcSprite.flipY = false;
+            Vector3 newPos = swordArcSprite.transform.localPosition;
+            newPos.x = 1.01f;
+            swordArcSprite.transform.localPosition = newPos;
         }
         else
         {
-            playerSprite.flipX = false;
+            playerSprite.flipX = true;
+            //swordArcSprite.flipX = true;
+            swordArcSprite.flipY = true;
+            Vector3 newPos = swordArcSprite.transform.localPosition;
+            newPos.x = -1.01f;
+            swordArcSprite.transform.localPosition = newPos;
         }
         
     }
