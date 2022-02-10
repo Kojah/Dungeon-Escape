@@ -15,11 +15,11 @@ D:/Projects/UDEMY/UNITY MOBILE/Dungeon-Escape/Dungeon Escape
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60296
+50145
 Successfully changed project path to: D:/Projects/UDEMY/UNITY MOBILE/Dungeon-Escape/Dungeon Escape
 D:/Projects/UDEMY/UNITY MOBILE/Dungeon-Escape/Dungeon Escape
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 39.71 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 64.38 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.27f1 (e759542391ea)
 [Subsystems] Discovering subsystems at path D:/!GameDev/UnityHub/2020.3.27f1/Editor/Data/Resources/UnitySubsystems
@@ -35,320 +35,89 @@ Initialize mono
 Mono path[0] = 'D:/!GameDev/UnityHub/2020.3.27f1/Editor/Data/Managed'
 Mono path[1] = 'D:/!GameDev/UnityHub/2020.3.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/!GameDev/UnityHub/2020.3.27f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56104
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56588
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/!GameDev/UnityHub/2020.3.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001263 seconds.
+Registered in 0.001206 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 40.57 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 60.27 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.800 seconds
+- Completed reload, in  0.778 seconds
 Domain Reload Profiling:
-	ReloadAssembly (800ms)
-		BeginReloadAssembly (83ms)
+	ReloadAssembly (778ms)
+		BeginReloadAssembly (82ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (625ms)
-			LoadAssemblies (83ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (597ms)
+			LoadAssemblies (80ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (224ms)
+			SetupTypeCache (194ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (210ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (241ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (41ms)
-				BeforeProcessingInitializeOnLoad (21ms)
-				ProcessInitializeOnLoadAttributes (107ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
+				RefreshPlugins (60ms)
+				BeforeProcessingInitializeOnLoad (26ms)
+				ProcessInitializeOnLoadAttributes (114ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004579 seconds.
+Registered in 0.004611 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.382 seconds
+- Completed reload, in  1.589 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1383ms)
-		BeginReloadAssembly (219ms)
+	ReloadAssembly (1590ms)
+		BeginReloadAssembly (179ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (1098ms)
-			LoadAssemblies (130ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (1337ms)
+			LoadAssemblies (367ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (392ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (428ms)
+			SetupTypeCache (387ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (413ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (102ms)
-				ProcessInitializeOnLoadAttributes (294ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (279ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
-Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1615 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 72.6 MB.
-System memory in use after: 72.7 MB.
+System memory in use before: 73.0 MB.
+System memory in use after: 73.1 MB.
 
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2050.
-Total: 3.560000 ms (FindLiveObjects: 0.250000 ms CreateObjectMapping: 0.314700 ms MarkObjects: 2.922700 ms  DeleteObjects: 0.071200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/Sprites/Tilemap/Tiles/Caverns/Black_Cavern_2_6.asset
-  artifactKey: Guid(3c8744cf9df6d6845ad5ee9303a2f464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tilemap/Tiles/Caverns/Black_Cavern_2_6.asset using Guid(3c8744cf9df6d6845ad5ee9303a2f464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed2f548dbef580dc5cc96d8b10e2815d') in 0.163897 seconds 
-  Import took 0.168209 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000299 seconds.
-  path: Assets/Sprites/Tilemap/Tiles/Caverns/Black_Cavern_2_7.asset
-  artifactKey: Guid(d82d55162783e964089e16338b87acdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tilemap/Tiles/Caverns/Black_Cavern_2_7.asset using Guid(d82d55162783e964089e16338b87acdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f33ac38c00ab6f1abc4d7aa969febdc4') in 0.021626 seconds 
-  Import took 0.025090 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000343 seconds.
-  path: Assets/Sprites/Tilemap/Tiles/Caverns/Black_Cavern_2_2.asset
-  artifactKey: Guid(5676add9735f0c941be84a331c51330c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tilemap/Tiles/Caverns/Black_Cavern_2_2.asset using Guid(5676add9735f0c941be84a331c51330c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfa7b13e9de6a4581174e4980ac07414') in 0.021867 seconds 
-  Import took 0.025346 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/Sprites/Tilemap/Tiles/Caverns/Black_Cavern_2_8.asset
-  artifactKey: Guid(df298085a14b8eb42abcdcc18bc4209c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tilemap/Tiles/Caverns/Black_Cavern_2_8.asset using Guid(df298085a14b8eb42abcdcc18bc4209c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a16fc88357882eddf0ed11c34adbbf7') in 0.017435 seconds 
-  Import took 0.020238 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/Sprites/Tilemap/Tiles/Caverns/Black_Cavern_2_0.asset
-  artifactKey: Guid(3e73d2c0c233ec940af11c8b9a0cb41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tilemap/Tiles/Caverns/Black_Cavern_2_0.asset using Guid(3e73d2c0c233ec940af11c8b9a0cb41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3372944bd5da26ef7544b924e4016c5') in 0.022332 seconds 
-  Import took 0.026185 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/Sprites/Tilemap/Tiles/Caverns/Black_Cavern_2_14.asset
-  artifactKey: Guid(a51aa57967389ce4ab24ced011e8ccfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tilemap/Tiles/Caverns/Black_Cavern_2_14.asset using Guid(a51aa57967389ce4ab24ced011e8ccfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3fae4003e3e1f645a94b8ffe20450d6') in 0.039403 seconds 
-  Import took 0.046313 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/Sprites/Tilemap/Tiles/Caverns/Black_Cavern_2_13.asset
-  artifactKey: Guid(601fe055bc342f94a81f45fa77e16f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tilemap/Tiles/Caverns/Black_Cavern_2_13.asset using Guid(601fe055bc342f94a81f45fa77e16f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5114649eded25b2da1b2ee98d1121231') in 0.016352 seconds 
-  Import took 0.020396 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Sprites/Tilemap/Tiles/Caverns/Black_Cavern_2_5.asset
-  artifactKey: Guid(aadb01738e25e2d48ae05da305b8d73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tilemap/Tiles/Caverns/Black_Cavern_2_5.asset using Guid(aadb01738e25e2d48ae05da305b8d73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9d43d44881520a0c299d018a3d445e5') in 0.027230 seconds 
-  Import took 0.030302 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/Sprites/Tilemap/Tiles/Caverns/Black_Cavern_2_11.asset
-  artifactKey: Guid(9916c04b99a183c409823c64353e8041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tilemap/Tiles/Caverns/Black_Cavern_2_11.asset using Guid(9916c04b99a183c409823c64353e8041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22a2d48e15ff54af9665ff06737ba1e7') in 0.017305 seconds 
-  Import took 0.020499 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/Sprites/Tilemap/Tiles/Caverns/Black_Cavern_2_10.asset
-  artifactKey: Guid(9502e2338a32ffb47a3a547494683d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tilemap/Tiles/Caverns/Black_Cavern_2_10.asset using Guid(9502e2338a32ffb47a3a547494683d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed97c570eae3fcaaffe3f8461f87c3f8') in 0.020008 seconds 
-  Import took 0.024328 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/Sprites/Tilemap/Tiles/Caverns/Black_Cavern_2_12.asset
-  artifactKey: Guid(2bf2e6c54f6416745ab8cf33d376fab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tilemap/Tiles/Caverns/Black_Cavern_2_12.asset using Guid(2bf2e6c54f6416745ab8cf33d376fab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5ff4ae7d79f67a62366d5e25738e89c') in 0.036251 seconds 
-  Import took 0.040907 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000299 seconds.
-  path: Assets/Sprites/Tilemap/Tiles/Caverns/Black_Cavern_2_3.asset
-  artifactKey: Guid(809e9f568f27d68449933b1a67b6d5be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tilemap/Tiles/Caverns/Black_Cavern_2_3.asset using Guid(809e9f568f27d68449933b1a67b6d5be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ead8229e4d5171d2222432c07355fc35') in 0.016030 seconds 
-  Import took 0.019337 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/Sprites/Tilemap/Tiles/Caverns/Black_Cavern_2_4.asset
-  artifactKey: Guid(ebb5857c2147fcf44a4b8014741d9663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tilemap/Tiles/Caverns/Black_Cavern_2_4.asset using Guid(ebb5857c2147fcf44a4b8014741d9663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daff943efb18aa79ffd43a0260325a23') in 0.014093 seconds 
-  Import took 0.016702 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Sprites/Tilemap/Tiles/Caverns/Black_Cavern_2_9.asset
-  artifactKey: Guid(9dbbf1c736c0d3b469636aba273e1c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tilemap/Tiles/Caverns/Black_Cavern_2_9.asset using Guid(9dbbf1c736c0d3b469636aba273e1c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0302a98d4eeaf8c84bf82396ba1bb25') in 0.013342 seconds 
-  Import took 0.015687 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/Sprites/Tilemap/Tiles/Caverns/Black_Cavern_2_1.asset
-  artifactKey: Guid(57a503d1b5f8b9e419e2326bb31440b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tilemap/Tiles/Caverns/Black_Cavern_2_1.asset using Guid(57a503d1b5f8b9e419e2326bb31440b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '276006b35847cd32219d008ef049f5c4') in 0.015059 seconds 
-  Import took 0.017826 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006241 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.808 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1809ms)
-		BeginReloadAssembly (228ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (21ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (72ms)
-		EndReloadAssembly (1469ms)
-			LoadAssemblies (163ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (679ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (77ms)
-			SetupLoadedEditorAssemblies (420ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (116ms)
-				ProcessInitializeOnLoadAttributes (277ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1609 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 75.5 MB.
-System memory in use after: 75.6 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2056.
-Total: 2.658400 ms (FindLiveObjects: 0.137400 ms CreateObjectMapping: 0.057100 ms MarkObjects: 2.442000 ms  DeleteObjects: 0.020600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005733 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.346 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1347ms)
-		BeginReloadAssembly (147ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (44ms)
-		EndReloadAssembly (1117ms)
-			LoadAssemblies (140ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (434ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (372ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (107ms)
-				ProcessInitializeOnLoadAttributes (239ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1609 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 75.5 MB.
-System memory in use after: 75.7 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2058.
-Total: 2.825500 ms (FindLiveObjects: 0.273600 ms CreateObjectMapping: 0.133600 ms MarkObjects: 2.398400 ms  DeleteObjects: 0.018200 ms)
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2052.
+Total: 3.885600 ms (FindLiveObjects: 0.245700 ms CreateObjectMapping: 0.127100 ms MarkObjects: 3.444400 ms  DeleteObjects: 0.066900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -362,106 +131,8 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 904.303023 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(9931fac085e98c04eb0ee26744eff749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(9931fac085e98c04eb0ee26744eff749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb58b9dc915c5c5375bbdd4b8d63f357') in 0.015131 seconds 
-  Import took 0.019084 seconds .
+  path: Assets/Assets/_Scenes/Game.unity
+  artifactKey: Guid(8d609537b2ff94518b2aef8752cf8dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/_Scenes/Game.unity using Guid(8d609537b2ff94518b2aef8752cf8dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93d5e1d709a04b77fae50086c9e4c216') in 0.024194 seconds 
+  Import took 0.027257 seconds .
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.417394 seconds.
-  path: Assets/Sprites
-  artifactKey: Guid(9abc5eb45c5ad1a40b8c9cef76a0c29d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites using Guid(9abc5eb45c5ad1a40b8c9cef76a0c29d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeb696fb4b5dfc8c37ddc114255a8274') in 0.009922 seconds 
-  Import took 0.013708 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.499517 seconds.
-  path: Assets/Sprites/Characters
-  artifactKey: Guid(da81717ca09e0584f8039d3cfe4dd7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Characters using Guid(da81717ca09e0584f8039d3cfe4dd7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba585865ab40ac43edaeb4e0d31f58a4') in 0.010006 seconds 
-  Import took 0.013610 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.600527 seconds.
-  path: Assets/Sprites/New Prefab Brush.asset
-  artifactKey: Guid(5b87b89be72bd8f4dbc2d2a5eb2fa19d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/New Prefab Brush.asset using Guid(5b87b89be72bd8f4dbc2d2a5eb2fa19d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '675341120bf02f572eed33fac32c7a3b') in 0.026870 seconds 
-  Import took 0.029681 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.922602 seconds.
-  path: Assets/Sprites/Diamond Brush.asset
-  artifactKey: Guid(5b87b89be72bd8f4dbc2d2a5eb2fa19d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Diamond Brush.asset using Guid(5b87b89be72bd8f4dbc2d2a5eb2fa19d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96bbcec66604ef04a3902b0356095442') in 0.034051 seconds 
-  Import took 0.038821 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.753325 seconds.
-  path: Assets/Sprites/Tilemap/Brushes
-  artifactKey: Guid(b5367b3af55230041a82fdd6d593d253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tilemap/Brushes using Guid(b5367b3af55230041a82fdd6d593d253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '440e2b6503e75116e1b299a57b01b7b1') in 0.008743 seconds 
-  Import took 0.012439 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 35.271361 seconds.
-  path: Assets/Sprites/Effects/Diamond.png
-  artifactKey: Guid(77079aa591da7db478af096131b593e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Effects/Diamond.png using Guid(77079aa591da7db478af096131b593e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5aca08fab55182354a2602c4632068c') in 0.085008 seconds 
-  Import took 0.088292 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.651178 seconds.
-  path: Assets/Sprites/Effects/Diamond.png
-  artifactKey: Guid(77079aa591da7db478af096131b593e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Effects/Diamond.png using Guid(77079aa591da7db478af096131b593e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f3b4c416c9def8e07d539b1332e9dd0') in 0.017943 seconds 
-  Import took 0.021510 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 41.112492 seconds.
-  path: Assets/Sprites/Effects/Diamond.png
-  artifactKey: Guid(77079aa591da7db478af096131b593e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Effects/Diamond.png using Guid(77079aa591da7db478af096131b593e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d696da3308248ed626bdb54cf618d4b') in 0.153000 seconds 
-  Import took 0.156842 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 119.330591 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.011872 seconds 
-  Import took 0.015028 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.586062 seconds.
-  path: Assets/Prefabs
-  artifactKey: Guid(b1c6077349a91a64186e25558368ed17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs using Guid(b1c6077349a91a64186e25558368ed17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ed999e898da245bcda07c973ca2c4e8') in 0.008523 seconds 
-  Import took 0.010992 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.654102 seconds.
-  path: Assets/Prefabs/Diamond.prefab
-  artifactKey: Guid(26ba6ecff07e83f4f93d67fb4845e91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Diamond.prefab using Guid(26ba6ecff07e83f4f93d67fb4845e91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8a839f391338f80414236136bb4b876') in 0.132896 seconds 
-  Import took 0.137485 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.932665 seconds.
-  path: Assets/Sprites/Tilemap/Brushes/Diamond Brush.asset
-  artifactKey: Guid(5b87b89be72bd8f4dbc2d2a5eb2fa19d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tilemap/Brushes/Diamond Brush.asset using Guid(5b87b89be72bd8f4dbc2d2a5eb2fa19d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a8ddf4e45906892422a6f7c176ad216') in 0.008040 seconds 
-  Import took 0.011072 seconds .
-
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
