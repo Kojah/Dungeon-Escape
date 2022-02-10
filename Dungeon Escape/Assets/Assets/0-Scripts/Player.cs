@@ -23,10 +23,10 @@ public class Player : MonoBehaviour
 
         if (move < 0)
         {
-            playerSprite.flipX = true;
+            Flip(true);
         } else if (move > 0)
         {
-            playerSprite.flipX = false;
+            Flip(false);
         }
 
         if (Input.GetKeyDown(KeyCode.Space) && IsGrounded())
@@ -37,6 +37,19 @@ public class Player : MonoBehaviour
 
         rigidBody.velocity = new Vector2(move * speed, rigidBody.velocity.y);
         playerAnimation.MoveTransition(move);
+    }
+
+    private void Flip(bool faceRight)
+    {
+        if(faceRight)
+        {
+            playerSprite.flipX = true;
+        }
+        else
+        {
+            playerSprite.flipX = false;
+        }
+        
     }
 
     private bool IsGrounded()
