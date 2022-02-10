@@ -5,8 +5,8 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     [SerializeField] private PlayerAnimation playerAnimation = default;
+    [SerializeField] private SpriteRenderer playerSprite = default;
     [SerializeField] private Rigidbody2D rigidBody = default;
-    [SerializeField] private SpriteRenderer sprite = default;
     [SerializeField] private float jumpForce = 5.0f;
     [SerializeField] private float speed = 5.0f;
 
@@ -23,10 +23,10 @@ public class Player : MonoBehaviour
 
         if (move < 0)
         {
-            sprite.flipX = true;
+            playerSprite.flipX = true;
         } else if (move > 0)
         {
-            sprite.flipX = false;
+            playerSprite.flipX = false;
         }
 
         if (Input.GetKeyDown(KeyCode.Space) && IsGrounded())
