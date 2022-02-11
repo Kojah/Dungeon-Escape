@@ -4,15 +4,13 @@ using UnityEngine;
 
 public class Spider : Enemy
 {
-    // Start is called before the first frame update
-    void Start()
+    public override void Attack()
     {
-        
+        base.Attack();
     }
 
-    // Update is called once per frame
-    void Update()
+    public override void Update()
     {
-        
+
     }
 }
