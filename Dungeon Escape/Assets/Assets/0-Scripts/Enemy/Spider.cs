@@ -4,13 +4,50 @@ using UnityEngine;
 
 public class Spider : Enemy
 {
-    public override void Attack()
+    [SerializeField] private Vector3 currentTarget = default;
+    [SerializeField] private Animator animator = default;
+    [SerializeField] private SpriteRenderer sprite = default;
+    // Start is called before the first frame update
+    void Start()
     {
-        base.Attack();
+
     }
 
+    // Update is called once per frame
     public override void Update()
     {
+        if (animator.GetCurrentAnimatorStateInfo(0).IsName("Idle"))
+        {
+            return;
+        }
 
+        Movement();
+    }
+
+    private void Movement()
+    {
+        if (currentTarget == pointA.position)
+        {
+            sprite.flipX = true;
+        }
+        else if (currentTarget == pointB.position)
+        {
+            sprite.flipX = false;
+        }
+
+        if (transform.position == pointA.position)
+        {
+            currentTarget = pointB.position;
+            animator.SetTrigger("Idle");
+
+        }
+        else if (transform.position == pointB.position)
+        {
+            currentTarget = pointA.position;
+            animator.SetTrigger("Idle");
+
+        }
+
+        transform.position = Vector3.MoveTowards(transform.position, currentTarget, speed * Time.deltaTime);
     }
 }
