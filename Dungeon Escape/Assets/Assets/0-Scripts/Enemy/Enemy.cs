@@ -13,6 +13,12 @@ public abstract class Enemy : MonoBehaviour
     [SerializeField] protected Animator animator = default;
     [SerializeField] protected SpriteRenderer sprite = default;
 
+    //for later
+    public virtual void Init()
+    {
+
+    }
+
     public virtual void Update()
     {
         if (animator.GetCurrentAnimatorStateInfo(0).IsName("Idle"))
