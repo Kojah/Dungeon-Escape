@@ -13,6 +13,13 @@ public class Skeleton : Enemy, IDamageable
 
     public void Damage(int damageTaken)
     {
+        //subtract damage from health
+        //if no health, destroy object
 
+        Health = Health - damageTaken;
+        if(Health < 0)
+        {
+            Destroy(gameObject);
+        }
     }
 }
