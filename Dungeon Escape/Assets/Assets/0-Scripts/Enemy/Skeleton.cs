@@ -19,6 +19,7 @@ public class Skeleton : Enemy, IDamageable
 
     public void Damage(int damageTaken)
     {
+        isHit = true;
         Health -= damageTaken;
         if(Health < 0)
         {

@@ -13,6 +13,8 @@ public abstract class Enemy : MonoBehaviour
     [SerializeField] protected Animator animator = default;
     [SerializeField] protected SpriteRenderer sprite = default;
 
+    protected bool isHit = false;
+
     //for later
     public virtual void Init()
     {
@@ -58,7 +60,10 @@ public abstract class Enemy : MonoBehaviour
 
         }
 
-        transform.position = Vector3.MoveTowards(transform.position, currentTarget, speed * Time.deltaTime);
+        if(!isHit)
+        {
+            transform.position = Vector3.MoveTowards(transform.position, currentTarget, speed * Time.deltaTime);
+        }
     }
 
     
