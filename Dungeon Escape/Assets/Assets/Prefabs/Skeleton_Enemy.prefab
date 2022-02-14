@@ -146,7 +146,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 243580f3d925432429cefa0542ee325b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 2
+  health: 3
   speed: 0.7
   gems: 2
   pointA: {fileID: 0}

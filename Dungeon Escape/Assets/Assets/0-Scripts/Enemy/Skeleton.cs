@@ -16,7 +16,7 @@ public class Skeleton : Enemy, IDamageable
         //subtract damage from health
         //if no health, destroy object
 
-        Health = Health - damageTaken;
+        Health -= damageTaken;
         if(Health < 0)
         {
             Destroy(gameObject);
