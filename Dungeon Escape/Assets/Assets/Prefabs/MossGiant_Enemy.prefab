@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2108902754266528932}
   - component: {fileID: 2108902754266528933}
   - component: {fileID: 2108902754266528935}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: MossGiantSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -112,7 +112,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2108902754626639541}
   - component: {fileID: 2108902754626639540}
-  m_Layer: 0
+  - component: {fileID: 1031868775}
+  m_Layer: 11
   m_Name: MossGiant_Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -154,3 +155,30 @@ MonoBehaviour:
   currentTarget: {x: 0, y: 0, z: 0}
   animator: {fileID: 2108902754266528935}
   sprite: {fileID: 2108902754266528933}
+  player: {fileID: 0}
+--- !u!61 &1031868775
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2108902754626639546}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.01803255, y: -0.25696486}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.4688482, y: 1.8745819}
+  m_EdgeRadius: 0

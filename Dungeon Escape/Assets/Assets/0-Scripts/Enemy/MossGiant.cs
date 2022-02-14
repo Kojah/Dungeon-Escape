@@ -27,7 +27,7 @@ public class MossGiant : Enemy, IDamageable
         {
             sprite.flipX = false;
         }
-        else if (direction.x < 9 && animator.GetBool("InCombat"))
+        else if (direction.x < 0 && animator.GetBool("InCombat"))
         {
             sprite.flipX = true;
         }
