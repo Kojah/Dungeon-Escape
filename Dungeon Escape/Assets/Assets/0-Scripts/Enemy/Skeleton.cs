@@ -19,11 +19,13 @@ public class Skeleton : Enemy, IDamageable
 
     public void Damage(int damageTaken)
     {
-        animator.SetTrigger("Hit");
         Health -= damageTaken;
         if(Health < 0)
         {
             Destroy(gameObject);
+            //when death anim implemented, return out of method?
+            //return;
         }
+        animator.SetTrigger("Hit");
     }
 }
