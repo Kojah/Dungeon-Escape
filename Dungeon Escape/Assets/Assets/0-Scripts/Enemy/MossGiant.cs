@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MossGiant : Enemy, IDamageable
+public class MossGiant : Enemy
 {
     public int Health { get; set; }
 
@@ -15,22 +15,6 @@ public class MossGiant : Enemy, IDamageable
     {
         base.Init();
         Health = health; 
-    }
-
-    public override void Movement()
-    {
-        base.Movement();
-
-        Vector3 direction = player.transform.localPosition - transform.localPosition;
-
-        if (direction.x > 0 && animator.GetBool("InCombat"))
-        {
-            sprite.flipX = false;
-        }
-        else if (direction.x < 0 && animator.GetBool("InCombat"))
-        {
-            sprite.flipX = true;
-        }
     }
 
     public void Damage(int damageTaken)
