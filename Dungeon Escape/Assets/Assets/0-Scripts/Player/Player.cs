@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public class Player : MonoBehaviour, IDamageable
 {
     [SerializeField] private PlayerAnimation playerAnimation = default;
     [SerializeField] private SpriteRenderer playerSprite = default;
@@ -14,6 +14,13 @@ public class Player : MonoBehaviour
     private bool resetJump = false;
     private bool isGrounded = false;
 
+    public int Health { get; set; }
+
+    void Start()
+    {
+        Health = 5;
+    }
+
     void Update()
     {
         Movement();
@@ -22,6 +29,12 @@ public class Player : MonoBehaviour
         {
             playerAnimation.AttackTransition();
         }
+    }
+
+    public void Damage(int damageTaken)
+    {
+        Debug.Log("player hurt");
+        Health -= damageTaken;
     }
 
     private void Movement()

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1378442781}
   - component: {fileID: 1378442783}
   - component: {fileID: 1378442782}
+  - component: {fileID: 1378442784}
   m_Layer: 12
   m_Name: Hit_Box
   m_TagString: Untagged
@@ -42,7 +43,7 @@ BoxCollider2D:
   m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.32289913, y: -0.02465187}
@@ -79,6 +80,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1378442784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1378442780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0afc8562e7faef841ad68112cd4475c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4849553760356217320
 GameObject:
   m_ObjectHideFlags: 0
@@ -193,7 +206,7 @@ GameObject:
   - component: {fileID: 4849553760437865569}
   - component: {fileID: 4849553760437865568}
   - component: {fileID: 247407692}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Skeleton_Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}

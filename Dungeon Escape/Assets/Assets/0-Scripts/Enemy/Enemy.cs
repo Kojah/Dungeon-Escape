@@ -69,7 +69,6 @@ public abstract class Enemy : MonoBehaviour
         //set is InCombat to FAUX also
 
         float distance = Vector3.Distance(transform.localPosition, player.transform.localPosition);
-        Debug.Log(distance);
         if(distance > 2)
         {
             isHit = false;
