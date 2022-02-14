@@ -35,6 +35,11 @@ public class Player : MonoBehaviour, IDamageable
     {
         Debug.Log("player hurt");
         Health -= damageTaken;
+
+        if(Health < 0)
+        {
+            playerAnimation.DeathTransition();
+        }
     }
 
     private void Movement()

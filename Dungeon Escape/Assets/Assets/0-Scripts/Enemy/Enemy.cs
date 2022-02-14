@@ -15,6 +15,7 @@ public abstract class Enemy : MonoBehaviour
     [SerializeField] protected Player player;
 
     protected bool isHit = false;
+    protected bool isDead = false;
 
     //for later
     public virtual void Init()
@@ -25,6 +26,11 @@ public abstract class Enemy : MonoBehaviour
     public virtual void Update()
     {
         if (animator.GetCurrentAnimatorStateInfo(0).IsName("Idle") && animator.GetBool("InCombat") == false)
+        {
+            return;
+        }
+
+        if(isDead == true)
         {
             return;
         }

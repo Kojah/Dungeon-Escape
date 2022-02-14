@@ -23,7 +23,8 @@ public class Spider : Enemy, IDamageable
         Health -= damageTaken;
         if (Health < 0)
         {
-            Destroy(gameObject);
+            isDead = true;
+            animator.SetTrigger("Death");
             //when death anim implemented, return out of method?
             //return;
         }
