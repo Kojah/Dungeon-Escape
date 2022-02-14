@@ -17,6 +17,21 @@ public class Skeleton : Enemy, IDamageable
         Debug.Log(health);
     }
 
+    public override void Movement()
+    {
+        base.Movement();
+
+        Vector3 direction = player.transform.localPosition - transform.localPosition;
+
+        if(direction.x > 0 && animator.GetBool("InCombat"))
+        {
+            sprite.flipX = false;
+        } else if (direction.x < 9 && animator.GetBool("InCombat"))
+        {
+            sprite.flipX = true;
+        }
+    }
+
     public void Damage(int damageTaken)
     {
         isHit = true;
@@ -27,6 +42,7 @@ public class Skeleton : Enemy, IDamageable
             //when death anim implemented, return out of method?
             //return;
         }
+        animator.SetBool("InCombat", true);
         animator.SetTrigger("Hit");
     }
 }

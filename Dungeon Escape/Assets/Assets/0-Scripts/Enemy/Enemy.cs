@@ -12,18 +12,19 @@ public abstract class Enemy : MonoBehaviour
     [SerializeField] protected Vector3 currentTarget = default;
     [SerializeField] protected Animator animator = default;
     [SerializeField] protected SpriteRenderer sprite = default;
+    [SerializeField] protected Player player;
 
     protected bool isHit = false;
 
     //for later
     public virtual void Init()
     {
-
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
     }
 
     public virtual void Update()
     {
-        if (animator.GetCurrentAnimatorStateInfo(0).IsName("Idle"))
+        if (animator.GetCurrentAnimatorStateInfo(0).IsName("Idle") && animator.GetBool("InCombat") == false)
         {
             return;
         }
@@ -64,7 +65,17 @@ public abstract class Enemy : MonoBehaviour
         {
             transform.position = Vector3.MoveTowards(transform.position, currentTarget, speed * Time.deltaTime);
         }
+        //if distance between enemy and player is greater than 2 units, isHit is set to faux
+        //set is InCombat to FAUX also
+
+        float distance = Vector3.Distance(transform.localPosition, player.transform.localPosition);
+        Debug.Log(distance);
+        if(distance > 2)
+        {
+            isHit = false;
+            animator.SetBool("InCombat", false);
+        }
     }
 
-    
+
 }
