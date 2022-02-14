@@ -8,9 +8,10 @@ public class Skeleton : Enemy, IDamageable
     public override void Init()
     {
         base.Init();
+        Health = health;
     }
 
-    public void Damage()
+    public void Damage(int damageTaken)
     {
 
     }

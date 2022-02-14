@@ -11,7 +11,7 @@ public class MossGiant : Enemy, IDamageable
         Health = health; 
     }
 
-    public void Damage()
+    public void Damage(int damageTaken)
     {
 
     }
