@@ -12,6 +12,11 @@ public class Spider : Enemy, IDamageable
         Health = health;
     }
 
+    public override void Update()
+    {
+        
+    }
+
     public void Damage(int damageTaken)
     {
         isHit = true;
@@ -22,8 +27,8 @@ public class Spider : Enemy, IDamageable
             //when death anim implemented, return out of method?
             //return;
         }
-        animator.SetBool("InCombat", true);
-        animator.SetTrigger("Hit");
+        //animator.SetBool("InCombat", true);
+        //animator.SetTrigger("Hit");
     }
 
     public void Attack()
