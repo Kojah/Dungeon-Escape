@@ -5,14 +5,18 @@ using UnityEngine;
 public class Shop : MonoBehaviour
 {
     public GameObject shopPanel = default;
+    public int currentSelectedItem = 0;
+    public int currentItemCost = 0;
+
+    Player playerRef = default;
     private void OnTriggerEnter2D(Collider2D other)
     {
         if(other.tag == "Player")
         {
-            Player player = other.GetComponent<Player>();
-            if(player != null)
+            playerRef = other.GetComponent<Player>();
+            if(playerRef != null)
             {
-                UIManager.Instance.openShop(player.diamonds);
+                UIManager.Instance.openShop(playerRef.diamonds);
             }
 
             shopPanel.SetActive(true);
@@ -27,8 +31,37 @@ public class Shop : MonoBehaviour
         }
     }
 
-    public void SelectItem()
+    public void SelectItem(int item)
     {
-        Debug.Log("Snierp");
+        currentSelectedItem = item;
+        switch (item)
+        {
+            case 0:
+                UIManager.Instance.updateShopSelection(75);
+                currentItemCost = 200;
+                break;
+            case 1:
+                UIManager.Instance.updateShopSelection(-35);
+                currentItemCost = 400;
+                break;
+            case 2:
+                UIManager.Instance.updateShopSelection(-145);
+                currentItemCost = 100;
+                break;
+        }
+    }
+
+    public void BuyItem()
+    {
+        if(playerRef.diamonds >= currentItemCost)
+        {
+            playerRef.diamonds -= currentItemCost;
+            Debug.Log("bought item.");
+        }
+        else
+        {
+            Debug.Log("Not enough gems.");
+            shopPanel.SetActive(false);
+        }
     }
 }
