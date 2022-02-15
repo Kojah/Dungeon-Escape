@@ -170,6 +170,8 @@ MonoBehaviour:
   animator: {fileID: 40673716112596146}
   sprite: {fileID: 40673716112596156}
   player: {fileID: 0}
+  diamondPrefab: {fileID: 7038934456258734087, guid: 90a8f09eabbfeca44b603838c95e2596,
+    type: 3}
   acidPrefab: {fileID: 7866644969293482736, guid: 4b634c3b9c06712448f6e35441d7f47c,
     type: 3}
 --- !u!61 &1153965100

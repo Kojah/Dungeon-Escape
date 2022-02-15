@@ -14,6 +14,8 @@ public abstract class Enemy : MonoBehaviour
     [SerializeField] protected SpriteRenderer sprite = default;
     [SerializeField] protected Player player;
 
+    [SerializeField] protected GameObject diamondPrefab = default;
+
     protected bool isHit = false;
     protected bool isDead = false;
 
@@ -93,5 +95,14 @@ public abstract class Enemy : MonoBehaviour
         }
     }
 
+    protected void dropLoot(int gemValue)
+    {
+        if(isDead)
+        {
+            return;
+        }
+        GameObject diamond = Instantiate(diamondPrefab, transform.position, Quaternion.identity);
 
+        diamond.GetComponent<Diamond>().Init(gemValue);
+    }
 }

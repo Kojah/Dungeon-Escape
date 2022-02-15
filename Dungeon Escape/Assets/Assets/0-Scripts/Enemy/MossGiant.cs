@@ -25,6 +25,7 @@ public class MossGiant : Enemy, IDamageable
         {
             isDead = true;
             animator.SetTrigger("Death");
+            dropLoot(gems);
             //when death anim implemented, return out of method?
             //return;
         }

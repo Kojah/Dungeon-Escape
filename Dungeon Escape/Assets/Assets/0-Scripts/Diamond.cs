@@ -15,8 +15,13 @@ public class Diamond : MonoBehaviour
     {
         if(other.tag == "Player")
         {
-            other.GetComponent<Player>().diamonds += value;
-            Destroy(gameObject);
+            Player player = other.GetComponent<Player>();
+            if(player != null)
+            {
+                player.diamonds += value;
+                Debug.Log($"Player diamonds: {player.diamonds}");
+                Destroy(gameObject);
+            }
         }
     }
 }

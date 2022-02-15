@@ -242,13 +242,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 5
   speed: 1
-  gems: 2
+  gems: 5
   pointA: {fileID: 0}
   pointB: {fileID: 0}
   currentTarget: {x: 0, y: 0, z: 0}
   animator: {fileID: 2108902754266528935}
   sprite: {fileID: 2108902754266528933}
   player: {fileID: 0}
+  diamondPrefab: {fileID: 7038934456258734087, guid: 90a8f09eabbfeca44b603838c95e2596,
+    type: 3}
 --- !u!61 &1031868775
 BoxCollider2D:
   m_ObjectHideFlags: 0
