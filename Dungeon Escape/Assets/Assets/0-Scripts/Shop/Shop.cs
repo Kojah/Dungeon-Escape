@@ -29,6 +29,6 @@ public class Shop : MonoBehaviour
 
     public void SelectItem()
     {
-
+        Debug.Log("Snierp");
     }
 }
