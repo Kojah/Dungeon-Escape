@@ -9,6 +9,12 @@ public class Shop : MonoBehaviour
     {
         if(other.tag == "Player")
         {
+            Player player = other.GetComponent<Player>();
+            if(player != null)
+            {
+                UIManager.Instance.openShop(player.diamonds);
+            }
+
             shopPanel.SetActive(true);
         }
     }
@@ -19,5 +25,10 @@ public class Shop : MonoBehaviour
         {
             shopPanel.SetActive(false);
         }
+    }
+
+    public void SelectItem()
+    {
+
     }
 }
