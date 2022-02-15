@@ -32,7 +32,7 @@ public class Spider : Enemy, IDamageable
         //animator.SetTrigger("Hit");
     }
 
-    public void Attack()
+    public override void Attack()
     {
         Instantiate(acidPrefab, transform.position, Quaternion.identity);
     }

@@ -15,6 +15,7 @@ public class Player : MonoBehaviour, IDamageable
     private bool isGrounded = false;
 
     public int Health { get; set; }
+    public int diamonds = 0;
 
     void Start()
     {
