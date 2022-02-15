@@ -18,7 +18,8 @@ public class Shop : MonoBehaviour
             {
                 UIManager.Instance.openShop(playerRef.diamonds);
             }
-
+            currentSelectedItem = 2;
+            currentItemCost = 100;
             shopPanel.SetActive(true);
         }
     }
@@ -55,6 +56,10 @@ public class Shop : MonoBehaviour
     {
         if(playerRef.diamonds >= currentItemCost)
         {
+            if(currentSelectedItem == 2)
+            {
+                GameManager.Instance.HasKeyToCastle = true;
+            }
             playerRef.diamonds -= currentItemCost;
         }
         else
