@@ -56,12 +56,11 @@ public class Shop : MonoBehaviour
         if(playerRef.diamonds >= currentItemCost)
         {
             playerRef.diamonds -= currentItemCost;
-            Debug.Log("bought item.");
         }
         else
         {
             Debug.Log("Not enough gems.");
-            shopPanel.SetActive(false);
         }
+        shopPanel.SetActive(false);
     }
 }
