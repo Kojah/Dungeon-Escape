@@ -64,7 +64,7 @@ public class Player : MonoBehaviour, IDamageable
         }
 
         //if ((Input.GetKeyDown(KeyCode.Space) || CrossPlatformInputManager.GetButtonDown("B_Button")) && isGrounded)
-        if (CrossPlatformInputManager.GetButtonDown("B_Button") && isGrounded)
+        if ((CrossPlatformInputManager.GetButtonDown("B_Button") || Input.GetKeyDown(KeyCode.Space)) && isGrounded)
         {
             rigidBody.velocity = new Vector2(rigidBody.velocity.x, jumpForce);
             StartCoroutine(ResetJumpRoutine());
