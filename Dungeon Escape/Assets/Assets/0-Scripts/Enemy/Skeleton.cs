@@ -21,7 +21,7 @@ public class Skeleton : Enemy, IDamageable
     {
         isHit = true;
         Health -= damageTaken;
-        if(Health < 0)
+        if(Health <= 0)
         {
             isDead = true;
             animator.SetTrigger("Death");

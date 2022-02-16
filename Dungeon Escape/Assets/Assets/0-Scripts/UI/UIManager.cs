@@ -22,6 +22,8 @@ public class UIManager : MonoBehaviour
     public Text playerGemCountText = default;
     public Text playerGemCountHUD = default;
     public Image selectionImage = default;
+
+    public List<Image> livesList = default;
     private void Awake()
     {
         instance = this;
@@ -40,5 +42,10 @@ public class UIManager : MonoBehaviour
     public void UpdateGemCount(int gems)
     {
         playerGemCountHUD.text = $"{gems}";
+    }
+
+    public void UpdateLives(int livesRemaining)
+    {
+        livesList[livesList.Count - (livesList.Count - livesRemaining)].enabled = false;
     }
 }

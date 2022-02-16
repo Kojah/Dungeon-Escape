@@ -13,13 +13,14 @@ public class Player : MonoBehaviour, IDamageable
 
     private bool resetJump = false;
     private bool isGrounded = false;
+    private bool isDead = false;
 
     public int Health { get; set; }
     public int diamonds = 0;
 
     void Start()
     {
-        Health = 5;
+        Health = 4;
     }
 
     void Update()
@@ -34,12 +35,18 @@ public class Player : MonoBehaviour, IDamageable
 
     public void Damage(int damageTaken)
     {
-        Debug.Log("player hurt");
-        Health -= damageTaken;
-
-        if(Health < 0)
+        if (!isDead)
         {
-            playerAnimation.DeathTransition();
+            Debug.Log("player hurt");
+            Health -= damageTaken;
+
+            UIManager.Instance.UpdateLives(Health);
+
+            if (Health <= 0)
+            {
+                playerAnimation.DeathTransition();
+                isDead = true;
+            }
         }
     }
 
