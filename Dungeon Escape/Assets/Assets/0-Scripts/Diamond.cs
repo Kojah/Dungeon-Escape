@@ -18,8 +18,7 @@ public class Diamond : MonoBehaviour
             Player player = other.GetComponent<Player>();
             if(player != null)
             {
-                player.diamonds += value;
-                Debug.Log($"Player diamonds: {player.diamonds}");
+                player.AddGems(value);
                 Destroy(gameObject);
             }
         }

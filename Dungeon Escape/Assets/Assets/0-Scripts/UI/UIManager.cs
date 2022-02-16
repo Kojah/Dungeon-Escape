@@ -20,7 +20,12 @@ public class UIManager : MonoBehaviour
     }
 
     public Text playerGemCountText = default;
+    public Text playerGemCountHUD = default;
     public Image selectionImage = default;
+    private void Awake()
+    {
+        instance = this;
+    }
 
     public void openShop(int gemCount)
     {
@@ -32,8 +37,8 @@ public class UIManager : MonoBehaviour
         selectionImage.rectTransform.anchoredPosition = new Vector2(selectionImage.rectTransform.anchoredPosition.x, yPos);
     }
 
-    private void Awake()
+    public void UpdateGemCount(int gems)
     {
-        instance = this;
+        playerGemCountHUD.text = $"{gems}";
     }
 }

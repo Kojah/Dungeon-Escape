@@ -116,4 +116,10 @@ public class Player : MonoBehaviour, IDamageable
         yield return new WaitForSeconds(0.1f);
         resetJump = false;
     }
+
+    public void AddGems(int gems)
+    {
+        diamonds += gems;
+        UIManager.Instance.UpdateGemCount(diamonds);
+    }
 }
