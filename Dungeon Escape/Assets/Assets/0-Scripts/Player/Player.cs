@@ -26,8 +26,8 @@ public class Player : MonoBehaviour, IDamageable
     void Update()
     {
         Movement();
-
-        if ((Input.GetMouseButtonDown(0) || CrossPlatformInputManager.GetButtonDown("A_Button")) && isGrounded)
+        //if ((Input.GetMouseButtonDown(0) || CrossPlatformInputManager.GetButtonDown("A_Button")) && isGrounded)
+        if (CrossPlatformInputManager.GetButtonDown("A_Button") && isGrounded)
         {
             playerAnimation.AttackTransition();
         }
@@ -63,7 +63,8 @@ public class Player : MonoBehaviour, IDamageable
             Flip(true);
         }
 
-        if ((Input.GetKeyDown(KeyCode.Space) || CrossPlatformInputManager.GetButtonDown("B_Button")) && isGrounded)
+        //if ((Input.GetKeyDown(KeyCode.Space) || CrossPlatformInputManager.GetButtonDown("B_Button")) && isGrounded)
+        if (CrossPlatformInputManager.GetButtonDown("B_Button") && isGrounded)
         {
             rigidBody.velocity = new Vector2(rigidBody.velocity.x, jumpForce);
             StartCoroutine(ResetJumpRoutine());
